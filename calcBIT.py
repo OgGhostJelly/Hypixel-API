@@ -5,7 +5,7 @@ import json
 try:
     auction_item_cheap = json.load(open('.data/AH/cheap.json'))
 except:
-    print('Unable to get data, try running getAH.py first')
+    print('Unable to get data, try running getAH.py first then calcBIT.py')
     exit()
 #bit items
 bit_item = {

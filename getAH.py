@@ -1,5 +1,6 @@
 #mod
 from requests import get as requests_get
+from requests import exceptions as requests_exceptions
 from json import load as json_load
 from json import dump as json_dump
 
@@ -14,16 +15,29 @@ def get_enchantedbook_name(item):
             item_lore = item_lore[:i] + item_lore[i+2:]
             item['item_lore'] = item_lore
         return item['item_lore'].split('\n')[0]
+def request_data(url):
+    try:
+        return requests_get(url,timeout=(20,20)).json()
+    except requests_exceptions.Timeout as e:
+        print('TIMEOUT ERROR\n\nerr:',e)
+        exit()
+    except requests_exceptions.ConnectionError as e:
+        print('CONNECTION ERROR\n\nerr:',e)
+        exit()
+    except requests_exceptions.RequestException as e:
+        print('AN ERROR OCCURED\n\nerr:',e)
+        exit()
 #def nbt_data_Count(raw_data):
 #    return int(NBTFile(fileobj = BytesIO(b64decode(raw_data)))['i'][0].get('Count').valuestr())
 
 #request data
 data = []
-ahdata = requests_get('https://api.hypixel.net/skyblock/auctions?page=0').json()
+ahdata = request_data('https://api.hypixel.net/skyblock/auctions?page=0')
 for i in range(ahdata['totalPages']-1):
     data.extend(ahdata['auctions'])
-    print('Requesting AH Data '+str(i+1)+'/'+str(ahdata['totalPages']))
-    ahdata = requests_get('https://api.hypixel.net/skyblock/auctions?page='+str(i+1),timeout=(15,None)).json()
+    progress = str(i+1)+'/'+str(ahdata['totalPages'])
+    print('Requesting AH Data '+progress)
+    ahdata = request_data('https://api.hypixel.net/skyblock/auctions?page='+str(i+1))
 #create item dict / create item price
 auction_item_name = {}
 auction_item_cheap = {}
