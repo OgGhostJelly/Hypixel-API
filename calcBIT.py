@@ -2,7 +2,7 @@
 import json
 
 #cheapest index
-auction_item_cheap = json.load(open('data/AH/cheap.json'))
+auction_item_cheap = json.load(open('.data/AH/cheap.json'))
 #bit items
 bit_item = [
     { "item_name" : 'God Potion', "item_cost" : 1500 },

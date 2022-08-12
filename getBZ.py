@@ -45,7 +45,7 @@ for i,v in enumerate(data):
     print('Processing AH Data '+str(i+1)+'/'+str(len(data)))
 #write to files
 print('Writing Data To JSON')
-#json_dump(data, open("data/AH/raw.json", "w"))
-json_dump(auction_item_cheap, open("data/AH/cheap.json", "w"))
-#json_dump(auction_item_name, open("data/AH/name.json", "w"))
+#json_dump(data, open(".data/AH/raw.json", "w"))
+json_dump(auction_item_cheap, open(".data/AH/cheap.json", "w"))
+#json_dump(auction_item_name, open(".data/AH/name.json", "w"))
 print('Program Complete!')
