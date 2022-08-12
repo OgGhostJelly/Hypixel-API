@@ -1,12 +1,7 @@
-#TODO
-#check for bugs
-#round it
-
 #mod
 from requests import get as requests_get
 from requests import exceptions as requests_exceptions
 from json import dump as json_dump
-
 #from base64 import b64decode
 #from io import BytesIO
 #from nbt.nbt import NBTFile
@@ -63,7 +58,10 @@ for i,v in enumerate(data):
     auction_item_name[item_name].append(i)
     print('Processing AH Data '+str(i+1)+'/'+str(len(data)))
 for v in auction_item_mode:
-    auction_item_mode = max(set(auction_item_mode[v]), key=auction_item_mode[v].count)
+    for x in auction_item_mode[v]:
+        x = round(x,0-(len(str(x))-4))
+    t = max(set(auction_item_mode[v]), key=auction_item_mode[v].count)
+    auction_item_mode[v] = t
 #write to files
 print('Writing Data To JSON')
 #json_dump(data, open(".mod/.data/AH/raw.json", "w"))

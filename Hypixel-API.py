@@ -18,3 +18,5 @@ try:
 except:
     exit()
 exec(open('Hypixel-API.py').read())
+
+#remove extra from getAH.py
