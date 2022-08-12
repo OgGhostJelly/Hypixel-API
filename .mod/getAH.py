@@ -1,3 +1,7 @@
+#TODO
+#check for bugs
+#round it
+
 #mod
 from requests import get as requests_get
 from requests import exceptions as requests_exceptions
@@ -40,6 +44,7 @@ for i in range(ahdata['totalPages']-1):
 #create item dict / create item price
 auction_item_name = {}
 auction_item_cheap = {}
+auction_item_mode = {}
 for i,v in enumerate(data):
     item_name = v['item_name']
     if item_name == 'Enchanted Book':
@@ -51,12 +56,18 @@ for i,v in enumerate(data):
             auction_item_cheap[item_name] = v
         elif auction_item_cheap[item_name]['starting_bid'] > v['starting_bid']:
             auction_item_cheap[item_name] = v
-
+        if not ( item_name in auction_item_mode ):
+            auction_item_mode[item_name] = []
+    if v['bin']:
+        auction_item_mode[item_name].append(v['starting_bid'])
     auction_item_name[item_name].append(i)
     print('Processing AH Data '+str(i+1)+'/'+str(len(data)))
+for v in auction_item_mode:
+    auction_item_mode = max(set(auction_item_mode[v]), key=auction_item_mode[v].count)
 #write to files
 print('Writing Data To JSON')
 #json_dump(data, open(".mod/.data/AH/raw.json", "w"))
-json_dump(auction_item_cheap, open(".mod/.data/AH/cheap.json", "w"))
 #json_dump(auction_item_name, open(".mod/.data/AH/name.json", "w"))
+json_dump(auction_item_cheap, open(".mod/.data/AH/cheap.json", "w"))
+json_dump(auction_item_mode, open(".mod/.data/AH/mode.json", "w"))
 print('Program Complete!')
