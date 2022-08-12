@@ -6,8 +6,6 @@ from json import dump as json_dump
 #from base64 import b64decode
 #from io import BytesIO
 #from nbt.nbt import NBTFile
-#key
-key = json_load(open('key.json'))
 #def
 def get_enchantedbook_name(item):
     for i,v in enumerate(item['item_lore']):
@@ -21,11 +19,11 @@ def get_enchantedbook_name(item):
 
 #request data
 data = []
-ahdata = requests_get('https://api.hypixel.net/skyblock/auctions?key='+key).json()
+ahdata = requests_get('https://api.hypixel.net/skyblock/auctions?page=0').json()
 for i in range(ahdata['totalPages']-1):
     data.extend(ahdata['auctions'])
     print('Requesting AH Data '+str(i+1)+'/'+str(ahdata['totalPages']))
-    ahdata = requests_get('https://api.hypixel.net/skyblock/auctions?key='+key+'&page='+str(i+1),timeout=(15,None)).json()
+    ahdata = requests_get('https://api.hypixel.net/skyblock/auctions?page='+str(i+1),timeout=(15,None)).json()
 #create item dict / create item price
 auction_item_name = {}
 auction_item_cheap = {}
