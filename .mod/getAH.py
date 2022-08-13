@@ -59,13 +59,13 @@ for i,v in enumerate(data):
     print('Processing AH Data '+str(i+1)+'/'+str(len(data)))
 for v in auction_item_mode:
     for x in auction_item_mode[v]:
-        x = round(x,0-(len(str(x))-4))
+        x = round(x,0-(len(str(x))-3))
     t = max(set(auction_item_mode[v]), key=auction_item_mode[v].count)
     auction_item_mode[v] = t
 #write to files
 print('Writing Data To JSON')
-#json_dump(data, open(".mod/.data/AH/raw.json", "w"))
-#json_dump(auction_item_name, open(".mod/.data/AH/name.json", "w"))
+json_dump(data, open(".mod/.data/AH/raw.json", "w"))
+json_dump(auction_item_name, open(".mod/.data/AH/name.json", "w"))
 json_dump(auction_item_cheap, open(".mod/.data/AH/cheap.json", "w"))
 json_dump(auction_item_mode, open(".mod/.data/AH/mode.json", "w"))
 print('Program Complete!')
