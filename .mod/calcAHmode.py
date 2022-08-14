@@ -7,9 +7,6 @@ except:
 try:
     inpt = input('Item to Calculate >>> ')
     print(inpt+': ',auction_item_mode[inpt])
-    raw = json_load(open('.mod/.data/AH/raw.json'))
-    name = json_load(open('.mod/.data/AH/name.json'))
-    print([raw[x]['starting_bid'] for x in name[inpt]])
 except:
     print('Invalid Item Check Capitalization')
     exit()

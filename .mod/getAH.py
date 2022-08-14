@@ -59,7 +59,7 @@ for i,v in enumerate(data):
     print('Processing AH Data '+str(i+1)+'/'+str(len(data)))
 for v in auction_item_mode:
     for x in auction_item_mode[v]:
-        x = round(x,0-(len(str(x))-3))
+        x = round(x,-(len(str(round(x)))-3))
     t = max(set(auction_item_mode[v]), key=auction_item_mode[v].count)
     auction_item_mode[v] = t
 #write to files
