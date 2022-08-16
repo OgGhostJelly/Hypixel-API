@@ -29,6 +29,7 @@ def request_data(url):
 #    return int(NBTFile(fileobj = BytesIO(b64decode(raw_data)))['i'][0].get('Count').valuestr())
 
 #request data
+print('Running...')
 data = []
 ahdata = request_data('https://api.hypixel.net/skyblock/auctions?page=0')
 for i in range(ahdata['totalPages']-1):
