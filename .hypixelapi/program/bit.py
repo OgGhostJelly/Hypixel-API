@@ -3,7 +3,7 @@ from json import load as json_load
 
 #cheapest index
 try:
-    auction_item_cheap = json_load(open('.mod/.data/AH/cheap.json'))
+    auction_item_cheap = json_load(open('.hypixelapi/data/AH/cheap.json'))
 except:
     print('Unable to get data, try running getAH.py first then calcBIT.py')
     exit()

@@ -2,9 +2,9 @@
 import os
 from json import load as json_load
 #get program
-main_dir = '.mod'
+main_dir = '.hypixelapi/program'
 program = {x[:len(x)-3] : main_dir + '/' + x for x in next(os.walk(main_dir))[2]}
-program_extra = json_load(open('.mod/.data/program.json'))
+program_extra = json_load(open('.hypixelapi/data/program.json'))
 #print
 print('\n-[ Hypixel API ]-\n')
 print('What would you like to do...\n')

@@ -65,8 +65,8 @@ for v in auction_item_mode:
     auction_item_mode[v] = t
 #write to files
 print('Writing Data To JSON')
-json_dump(data, open(".mod/.data/AH/raw.json", "w"))
-json_dump(auction_item_name, open(".mod/.data/AH/name.json", "w"))
-json_dump(auction_item_cheap, open(".mod/.data/AH/cheap.json", "w"))
-json_dump(auction_item_mode, open(".mod/.data/AH/mode.json", "w"))
+json_dump(data, open(".hypixelapi/data/AH/raw.json", "w"))
+json_dump(auction_item_name, open(".hypixelapi/data/AH/name.json", "w"))
+json_dump(auction_item_cheap, open(".hypixelapi/data/AH/cheap.json", "w"))
+json_dump(auction_item_mode, open(".hypixelapi/data/AH/mode.json", "w"))
 print('Program Complete!')
