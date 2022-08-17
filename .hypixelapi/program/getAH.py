@@ -30,10 +30,10 @@ def request_data(url):
 
 #request data
 print('Running...')
-data = []
+raw = []
 ahdata = request_data('https://api.hypixel.net/skyblock/auctions?page=0')
 for i in range(ahdata['totalPages']-1):
-    data.extend(ahdata['auctions'])
+    raw.extend(ahdata['auctions'])
     progress = str(i+1)+'/'+str(ahdata['totalPages'])
     print('Requesting AH Data '+progress)
     ahdata = request_data('https://api.hypixel.net/skyblock/auctions?page='+str(i+1))
@@ -41,7 +41,7 @@ for i in range(ahdata['totalPages']-1):
 auction_item_name = {}
 auction_item_cheap = {}
 auction_item_mode = {}
-for i,v in enumerate(data):
+for i,v in enumerate(raw):
     item_name = v['item_name']
     if item_name == 'Enchanted Book':
         item_name = get_enchantedbook_name(v)
@@ -57,7 +57,7 @@ for i,v in enumerate(data):
     if v['bin']:
         auction_item_mode[item_name].append(v['starting_bid'])
     auction_item_name[item_name].append(i)
-    print('Processing AH Data '+str(i+1)+'/'+str(len(data)))
+    print('Processing AH Data '+str(i+1)+'/'+str(len(raw)))
 for v in auction_item_mode:
     for x in auction_item_mode[v]:
         x = round(x,-(len(str(round(x)))-3))
@@ -65,7 +65,7 @@ for v in auction_item_mode:
     auction_item_mode[v] = t
 #write to files
 print('Writing Data To JSON')
-json_dump(data, open(".hypixelapi/data/AH/raw.json", "w"))
+json_dump(raw, open(".hypixelapi/data/AH/raw.json", "w"))
 json_dump(auction_item_name, open(".hypixelapi/data/AH/name.json", "w"))
 json_dump(auction_item_cheap, open(".hypixelapi/data/AH/cheap.json", "w"))
 json_dump(auction_item_mode, open(".hypixelapi/data/AH/mode.json", "w"))

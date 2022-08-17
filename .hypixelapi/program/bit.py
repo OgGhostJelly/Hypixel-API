@@ -5,7 +5,7 @@ from json import load as json_load
 try:
     auction_item_cheap = json_load(open('.hypixelapi/data/AH/cheap.json'))
 except:
-    print('Unable to get data, try running getAH.py first then calcBIT.py')
+    print('Unable to get data, try running getAH first then bit')
     exit()
 #bit items
 bit_item = {

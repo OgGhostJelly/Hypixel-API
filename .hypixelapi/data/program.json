@@ -1,5 +1,8 @@
 {
     "bit" : { "desc" : "calculate most profitable bit shop items" },
     "AHmode" : { "desc" : "get the mode of an AH item" },
-    "getAH" : { "desc" : "get AH data" }
+    "bzFLIP" : { "desc" : "get best BZ item to flip" },
+    
+    "getAH" : { "desc" : "get AH data" },
+    "getBZ" : { "desc" : "get BZ data" }
 }
