@@ -14,5 +14,5 @@ for k,v in flip.items():
     if raw[k]['sell_summary'][0]['pricePerUnit'] >= price_limit:
         continue
     vn = str(len(flip)-i)+'. '+k
-    print(vn,': ',v,sep='')
+    print(vn,': ','Coin Per ( Hour: ',v['EstimatedProfitPerHour'],', Minute: ',v['EstimatedProfitPerMinute'],')',sep='')
     i += 1

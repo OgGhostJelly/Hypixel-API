@@ -21,12 +21,18 @@ i = 1
 flip = {}
 for k,v in raw.items():
     try:
-        flip[k] = round(v['buy_summary'][0]['pricePerUnit'] - v['sell_summary'][0]['pricePerUnit'],1)
+        flip[k] = {}
+        flip[k]['ProfitMarginAmount'] = round(v['buy_summary'][0]['pricePerUnit'] - v['sell_summary'][0]['pricePerUnit'],1)
+        flip[k]['ProfitMarginPercent'] = round((flip[k]['ProfitMarginAmount'] / v['buy_summary'][0]['pricePerUnit']) * 100,1)
+        flip[k]['EstimatedProfitPerWeek'] = ( (v['quick_status']['sellMovingWeek'] + v['quick_status']['buyMovingWeek']) / 4 ) * flip[k]['ProfitMarginAmount']
+        flip[k]['EstimatedProfitPerHour'] = flip[k]['EstimatedProfitPerWeek'] / 168
+        flip[k]['EstimatedProfitPerMinute'] = flip[k]['EstimatedProfitPerWeek'] / 10080
     except:
+        del flip[k]
         pass
     print('Processing BZ Data '+str(i)+'/'+str(len(raw)))
     i += 1
-flip = dict(sorted(flip.items(), key=lambda item: item[1]))
+flip = dict(sorted(flip.items(), key=lambda x: x[1]['EstimatedProfitPerWeek']))
 #write to files
 print('Writing Data To JSON')
 json_dump(raw, open(".hypixelapi/data/BZ/raw.json", "w"))
