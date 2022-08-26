@@ -1,4 +1,5 @@
 {
+    "pet" : { "desc" : "calculate most flippable pet items" },
     "bit" : { "desc" : "calculate most profitable bit shop items" },
     "AHmode" : { "desc" : "get the mode of an AH item" },
     "bzFLIP" : { "desc" : "get best BZ item to flip" },

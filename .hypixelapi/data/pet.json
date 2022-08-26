@@ -1,0 +1,1184 @@
+{
+  "Armadillo Pet": {
+    "1": {
+      "time": 3,
+      "coin_cost": 10000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 10,
+      "coin_cost": 30000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 2,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 5,
+      "coin_cost": 1000000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    }
+  },
+  "Baby Yeti Pet": {
+    "4": {
+      "time": 12,
+      "coin_cost": 20000000,
+      "item_cost": {
+        "item_amnt": 16,
+        "item_id": "ENCHANTED_RAW_SALMON"
+      }
+    }
+  },
+  "Bat Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 6,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 1,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 3,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 64,
+        "item_id": "ENCHANTED_RED_MUSHROOM"
+      }
+    }
+  },
+  "Bal Pet": {
+    "4": {
+      "time": 10,
+      "coin_cost": 2000000,
+      "item_cost": {
+        "item_amnt": 100,
+        "item_id": "YOGGIE"
+      }
+    }
+  },
+  "Bee Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": 128,
+        "item_id": "BLOCK_OF_COAL"
+      }
+    },
+    "2": {
+      "time": 6,
+      "coin_cost": 40000,
+      "item_cost": {
+        "item_amnt": 128,
+        "item_id": "BLOCK_OF_GOLD"
+      }
+    },
+    "3": {
+      "time": 1,
+      "coin_cost": 150000,
+      "item_cost": {
+        "item_amnt": 9,
+        "item_id": "ENCHANTED_BLOCK_OF_COAL"
+      }
+    },
+    "4": {
+      "time": 3,
+      "coin_cost": 450000,
+      "item_cost": {
+        "item_amnt": 9,
+        "item_id": "ENCHANTED_GOLD_BLOCK"
+      }
+    }
+  },
+  "Blaze Pet": {
+    "4": {
+      "time": 12,
+      "coin_cost": 200000,
+      "item_cost": {
+        "item_amnt": 64,
+        "item_id": "ENCHANTED_BLAZE_ROD"
+      }
+    }
+  },
+  "Blue Whale Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 15000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 2,
+      "coin_cost": 75000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 7,
+      "coin_cost": 900000,
+      "item_cost": {
+        "item_amnt": 1,
+        "item_id": "ENCHANTED_COOKED_FISH"
+      }
+    },
+    "4": {
+      "time": 12,
+      "coin_cost": 9000000,
+      "item_cost": {
+        "item_amnt": 8,
+        "item_id": "ENCHANTED_COOKED_FISH"
+      }
+    }
+  },
+  "Chicken Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 4,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 12,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 1,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 8,
+        "item_id": "ENCHANTED_RAW_CHICKEN"
+      }
+    }
+  },
+  "Dolphin Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 100000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 2,
+      "coin_cost": 1000000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 7,
+      "coin_cost": 10000000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 14,
+      "coin_cost": 50000000,
+      "item_cost": {
+        "item_amnt": 16,
+        "item_id": "ENCHANTED_RAW_FISH"
+      }
+    }
+  },
+  "Elephant Pet": {
+    "1": {
+      "time": 6,
+      "coin_cost": 15000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 20,
+      "coin_cost": 75000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 5,
+      "coin_cost": 900000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 10,
+      "coin_cost": 14000000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    }
+  },
+  "Ender Dragon Pet": {
+    "4": {
+      "time": 20,
+      "coin_cost": 400000000,
+      "item_cost": {
+        "item_amnt": 8,
+        "item_id": "SUMMONING_EYE"
+      }
+    }
+  },
+  "Enderman Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 1000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 2,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 6,
+      "coin_cost": 10000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 12,
+      "coin_cost": 40000000,
+      "item_cost": {
+        "item_amnt": 8,
+        "item_id": "ENCHANTED_EYE_OF_ENDER"
+      }
+    }
+  },
+  "Endermite Pet": {
+    "1": {
+      "time": 2,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 8,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 3,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 7,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 512,
+        "item_id": "ENCHANTED_ENDSTONE"
+      }
+    }
+  },
+  "Flying Fish Pet": {
+    "3": {
+      "time": 5,
+      "coin_cost": 200000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 10,
+      "coin_cost": 1000000,
+      "item_cost": {
+        "item_amnt": 64,
+        "item_id": "ENCHANTED_RAW_FISH"
+      }
+    }
+  },
+  "Ghoul Pet": {
+    "4": {
+      "time": 10,
+      "coin_cost": 5000000,
+      "item_cost": {
+        "item_amnt": 512,
+        "item_id": "REVENANT_FLESH"
+      }
+    }
+  },
+  "Giraffe Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 15000,
+      "item_cost": {
+        "item_amnt": 1,
+        "item_id": "ENCHANTED_ACACIA_LOG"
+      }
+    },
+    "2": {
+      "time": 2,
+      "coin_cost": 75000,
+      "item_cost": {
+        "item_amnt": 16,
+        "item_id": "ENCHANTED_ACACIA_LOG"
+      }
+    },
+    "3": {
+      "time": 7,
+      "coin_cost": 900000,
+      "item_cost": {
+        "item_amnt": 128,
+        "item_id": "ENCHANTED_ACACIA_LOG"
+      }
+    },
+    "4": {
+      "time": 12,
+      "coin_cost": 9000000,
+      "item_cost": {
+        "item_amnt": 512,
+        "item_id": "ENCHANTED_ACACIA_LOG"
+      }
+    }
+  },
+  "Golem Pet": {
+    "4": {
+      "time": 20,
+      "coin_cost": 10000000,
+      "item_cost": {
+        "item_amnt": 8,
+        "item_id": "ENCHANTED_IRON_BLOCK"
+      }
+    }
+  },
+  "Guardian Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 20000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 6,
+      "coin_cost": 100000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 2,
+      "coin_cost": 500000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 5,
+      "coin_cost": 3000000,
+      "item_cost": {
+        "item_amnt": 64,
+        "item_id": "ENCHANTED_PRISMARINE_SHARD"
+      }
+    }
+  },
+  "Horse Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 4,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 12,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 1,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 8,
+        "item_id": "ENCHANTED_LEATHER"
+      }
+    }
+  },
+  "Hound Pet": {
+    "4": {
+      "time": 10,
+      "coin_cost": 5000000,
+      "item_cost": {
+        "item_amnt": 512,
+        "item_id": "WOLF_TOOTH"
+      }
+    }
+  },
+  "Jellyfish Pet": {
+    "4": {
+      "time": 10,
+      "coin_cost": 15000000,
+      "item_cost": {
+        "item_amnt": 16,
+        "item_id": "ENCHANTED_SLIME_BALL"
+      }
+    }
+  },
+  "Jerry Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 10000,
+      "item_cost": {
+        "item_amnt": 1,
+        "item_id": "ASSISTANT"
+      }
+    },
+    "2": {
+      "time": 6,
+      "coin_cost": 20000,
+      "item_cost": {
+        "item_amnt": 1,
+        "item_id": "ASSISTANT"
+      }
+    },
+    "3": {
+      "time": 1,
+      "coin_cost": 40000,
+      "item_cost": {
+        "item_amnt": 1,
+        "item_id": "ASSISTANT"
+      }
+    },
+    "4": {
+      "time": 3,
+      "coin_cost": 100000,
+      "item_cost": {
+        "item_amnt": 1,
+        "item_id": "ASSISTANT"
+      }
+    }
+  },
+  "Lion Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 15000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 2,
+      "coin_cost": 75000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 7,
+      "coin_cost": 900000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 14,
+      "coin_cost": 14000000,
+      "item_cost": {
+        "item_amnt": 1024,
+        "item_id": "ENCHANTED_RAW_BEEF"
+      }
+    }
+  },
+  "Magma Cube Pet": {
+    "1": {
+      "time": 6,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 20,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 5,
+      "coin_cost": 10000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 10,
+      "coin_cost": 500000,
+      "item_cost": {
+        "item_amnt": 16,
+        "item_id": "ENCHANTED_MAGMA_CREAM"
+      }
+    }
+  },
+  "Megalodon Pet": {
+    "4": {
+      "time": 20,
+      "coin_cost": 10000000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    }
+  },
+  "Mithril Golem Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 10000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 2,
+      "coin_cost": 50000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 5,
+      "coin_cost": 100000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 20,
+      "coin_cost": 200000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    }
+  },
+  "Monkey Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 15000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 2,
+      "coin_cost": 75000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 7,
+      "coin_cost": 900000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 12,
+      "coin_cost": 17000000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    }
+  },
+  "Ocelot Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 6,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 2,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 5,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 512,
+        "item_id": "ENCHANTED_JUNGLE_LOG"
+      }
+    }
+  },
+  "Parrot Pet": {
+    "4": {
+      "time": 14,
+      "coin_cost": 15000000,
+      "item_cost": {
+        "item_amnt": 16,
+        "item_id": "ENCHANTED_FEATHER"
+      }
+    }
+  },
+  "Phoenix Pet": {
+    "4": {
+      "time": 20,
+      "coin_cost": 100000000,
+      "item_cost": {
+        "item_amnt": 1024,
+        "item_id": "ENCHANTED_BLAZE_POWDER"
+      }
+    }
+  },
+  "Pig Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 3,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 12,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 1,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 512,
+        "item_id": "PORK"
+      }
+    }
+  },
+  "Pigman Pet": {
+    "4": {
+      "time": 10,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 8,
+        "item_id": "ENCHANTED_GRILLED_PORK"
+      }
+    }
+  },
+  "Rabbit Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 4,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 12,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 1,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 64,
+        "item_id": "RABBIT"
+      }
+    }
+  },
+  "Rock Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 100000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 2,
+      "coin_cost": 1000000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 7,
+      "coin_cost": 10000000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 14,
+      "coin_cost": 50000000,
+      "item_cost": {
+        "item_amnt": 64,
+        "item_id": "ENCHANTED_COBBLESTONE"
+      }
+    }
+  },
+  "Scatha Pet": {
+    "3": {
+      "time": 7,
+      "coin_cost": 125000000,
+      "item_cost": {
+        "item_amnt": 64,
+        "item_id": "ENCHANTED_HARD_STONE"
+      }
+    },
+    "4": {
+      "time": 14,
+      "coin_cost": 250000000,
+      "item_cost": {
+        "item_amnt": 256,
+        "item_id": "ENCHANTED_HARD_STONE"
+      }
+    }
+  },
+  "Sheep Pet": {
+    "1": {
+      "time": 2,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 8,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 3,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 7,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 512,
+        "item_id": "ENCHANTED_MUTTON"
+      }
+    }
+  },
+  "Silverfish Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 6,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 1,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 3,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 64,
+        "item_id": "ENCHANTED_COBBLESTONE"
+      }
+    }
+  },
+  "Skeleton Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 6,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 1,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 3,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 128,
+        "item_id": "ENCHANTED_BONE"
+      }
+    }
+  },
+  "Spider Pet": {
+    "1": {
+      "time": 2,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 8,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 3,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 7,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 512,
+        "item_id": "ENCHANTED_STRING"
+      }
+    }
+  },
+  "Spirit Pet": {
+    "4": {
+      "time": 10,
+      "coin_cost": 5000000,
+      "item_cost": {
+        "item_amnt": 64,
+        "item_id": "ENCHANTED_GHAST_TEAR"
+      }
+    }
+  },
+  "Squid Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 20000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 6,
+      "coin_cost": 100000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 2,
+      "coin_cost": 500000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 5,
+      "coin_cost": 3000000,
+      "item_cost": {
+        "item_amnt": 64,
+        "item_id": "ENCHANTED_INK_SACK"
+      }
+    }
+  },
+  "Tarantula Pet": {
+    "4": {
+      "time": 10,
+      "coin_cost": 5000000,
+      "item_cost": {
+        "item_amnt": 512,
+        "item_id": "TARANTULA_WEB"
+      }
+    }
+  },
+  "Tiger Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 15000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 2,
+      "coin_cost": 75000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 7,
+      "coin_cost": 900000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 12,
+      "coin_cost": 14000000,
+      "item_cost": {
+        "item_amnt": 1024,
+        "item_id": "ENCHANTED_RAW_CHICKEN"
+      }
+    }
+  },
+  "Turtle Pet": {
+    "4": {
+      "time": 10,
+      "coin_cost": 15000000,
+      "item_cost": {
+        "item_amnt": 16,
+        "item_id": "ENCHANTED_RAW_FISH"
+      }
+    }
+  },
+  "Wither Skeleton Pet": {
+    "4": {
+      "time": 5,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 8,
+        "item_id": "ENCHANTED_COAL_BLOCK"
+      }
+    }
+  },
+  "Wolf Pet": {
+    "1": {
+      "time": 1,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 6,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 2,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 5,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 512,
+        "item_id": "ENCHANTED_SPRUCE_LOG"
+      }
+    }
+  },
+  "Zombie Pet": {
+    "1": {
+      "time": 6,
+      "coin_cost": 2000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "2": {
+      "time": 20,
+      "coin_cost": 5000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "3": {
+      "time": 5,
+      "coin_cost": 190000,
+      "item_cost": {
+        "item_amnt": null,
+        "item_id": null
+      }
+    },
+    "4": {
+      "time": 10,
+      "coin_cost": 250000,
+      "item_cost": {
+        "item_amnt": 8,
+        "item_id": "ZOMBIE_HEART"
+      }
+    }
+  }
+}
