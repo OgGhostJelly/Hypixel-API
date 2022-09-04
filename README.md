@@ -1,5 +1,6 @@
 # Hypixel API
 ### Dependencies
-Hypixel-API requires `requests` package
+requires `requests` package
+requires `nbt` package
 
-in terminal do `pip install requests`
+in terminal do `pip install [package_name_here]`
